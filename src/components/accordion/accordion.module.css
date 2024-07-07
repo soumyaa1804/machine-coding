@@ -1,0 +1,30 @@
+.accordion {
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.query {
+  display: flex;
+  gap: 10px;
+}
+
+.accordion:hover {
+  cursor: pointer;
+  background-color: #bebebe;
+  transition: 0.2s ease-in-out;
+}
+
+.disable {
+  display: none;
+}
+
+button {
+  height: 40px;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
